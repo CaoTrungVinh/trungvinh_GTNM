@@ -17,15 +17,15 @@
     font-weight: bold;
     padding: 5px 20px;
 }
-#containts .contact .menu ul li .lab1{
+#containts .contact .menu ul li .lab2{
     color: #dc2e2e;
- }
+}
 #containts .contact .menu ul li lab:hover{
     color: red;
 }
 /*------------------------*/
 #containts .contact .dow{
-    margin-left: 40px;
+    margin-left: 150px;
     height: 25px;
 }
 /*-------------------------*/
@@ -46,34 +46,4 @@
 }
 #containts .contact .dow1{
     margin-left: 70px;
-}
-#containts .contact .req{
-    margin-left: 20px;
-    margin-right: 20px;
-    color: black;
-}
-#containts .contact .req h1{
-    color: #04617A;
-    font-weight: bold;
-    font-size: 25px;
-}
-#containts .contact .req p .h4{
-    font-weight: bold;
-    color: black;
-}
-#containts .contact .req .p3{
-    margin-left: 20px;
-}
-#containts .contact .req .p3 i{
-    margin-right: 10px;
-    color: #0F6EC6;
-    font-size: 10px;
-}
-#containts .contact .req .p4{
-    margin-left: 40px;
-}
-#containts .contact .req .p4 i{
-    color: #0F6EC6;
-    font-size: 8px;
-    margin-right: 10px;
 }
