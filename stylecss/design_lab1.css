@@ -5,45 +5,20 @@
 #sidebar-wrapper .side-top .logo-sidebar {
     margin-top: -40px;
 }
-#containts .contact .menu{
-    border-bottom: 2px solid black;
-    height: 50px;
-    background: #E6E6E6;
-}
-#containts .contact .menu ul li{
-    float: left;
-    margin-right: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 5px 20px;
-}
-#containts .contact .menu ul li .lab1{
-    color: #dc2e2e;
-}
-#containts .contact .menu ul li lab:hover{
-    color: red;
-}
+/*------------------menu*/
 /*------------------------*/
 #containts .contact .dow{
-    margin-left: 40px;
+    margin-left: 55px;
     height: 25px;
 }
 /*-------------------------*/
-#containts .contact .tab{
-    background: #9d9d9d;
-    /*border: 1px solid black;*/
-    height: 27px;
+#containts .contact .tab .bt-tab2 a{
+    color: red;
 }
-#containts .contact .tab ul li{
-    font-weight: bold;
-    float: left;
-    margin-right: 100px;
-    margin-left: 30px;
-    font-size: 15px;
+#containts .contact .tab .bt-tab2:hover{
+    background: #DDDDDD;
 }
-#containts .contact .tab ul li .tab_design2{
-    color: #dc2e2e;
-}
+/*----------*/
 #containts .contact .dow1{
-    margin-left: 290px;
+    margin-left: 175px;
 }

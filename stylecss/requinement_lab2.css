@@ -6,44 +6,64 @@
     margin-top: -40px;
 }
 #containts .contact .menu{
-    border-bottom: 2px solid black;
-    height: 50px;
-    background: #E6E6E6;
+    height: 40px;
+    background: black;
 }
-#containts .contact .menu ul li{
-    float: left;
-    margin-right: 10px;
-    font-size: 20px;
+#containts .contact .menu button{
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: none;
+}
+#containts .contact .menu a{
+    color: white;
     font-weight: bold;
-    padding: 5px 20px;
 }
-#containts .contact .menu ul li .lab2{
-    color: #dc2e2e;
+#containts .contact .menu .bt-lab2{
+    background: #F44336;
 }
-#containts .contact .menu ul li lab:hover{
-    color: red;
+#containts .contact .menu .bt-lab:hover{
+    background: #CCCCCC;
 }
+#containts .contact .menu .bt-lab:hover a{
+    color: black;
+}
+
 /*------------------------*/
 #containts .contact .dow{
-    margin-left: 150px;
+    margin-left: 175px;
     height: 25px;
 }
 /*-------------------------*/
 #containts .contact .tab{
-    background: #9d9d9d;
-    /*border: 1px solid black;*/
-    height: 27px;
+    /*background: #9d9d9d;*/
+    border: 2px solid #DDDDDD;
+    height: 40px;
 }
-#containts .contact .tab ul li{
+#containts .contact .tab button{
+    background: none;
+    width: 120px;
+    height: 38px;
+    border: none;
+}
+#containts .contact .tab button a{
     font-weight: bold;
-    float: left;
-    margin-right: 100px;
-    margin-left: 30px;
-    font-size: 15px;
 }
-#containts .contact .tab ul li .tab1{
+#containts .contact .tab .bt-tab1 a{
+    color: red;
+}
+#containts .contact .tab .bt-tab1:hover{
+    background: #DDDDDD;
+}
+#containts .contact .tab .bt-tab:hover{
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    background: #DDDDDD;
+}
+#containts .contact .tab .bt-tab:hover a{
     color: #dc2e2e;
 }
+/*-------*/
 #containts .contact .dow1{
-    margin-left: 70px;
+    margin-left: 60px;
 }
