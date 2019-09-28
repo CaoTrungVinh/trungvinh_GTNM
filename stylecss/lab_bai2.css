@@ -9,6 +9,7 @@
 #containts .contact .menu{
     height: 50px;
     background: black;
+    margin-left: 0px;
 }
 #containts .contact .menu button{
     width: 120px;
@@ -21,7 +22,7 @@
     color: white;
     font-weight: bold;
 }
-#containts .contact .menu .bt-lab1{
+#containts .contact .menu .bt-lab2{
     background: #F44336;
 }
 #containts .contact .menu .bt-lab:hover{
@@ -30,9 +31,10 @@
 #containts .contact .menu .bt-lab:hover a{
     color: black;
 }
+
 /*----------tab--------------*/
 #containts .contact .dow{
-    margin-left: 55px;
+    margin-left: 175px;
     height: 25px;
 }
 /*-------------------------*/
@@ -76,24 +78,6 @@
 }
 #containts .contact .menu2 .tabcontent .reqi .dow1{
     margin-left: 65px;
-}
-#containts .contact .menu2 .tabcontent .reqi h1{
-    font-weight: bold;
-    color: #04617A;
-}
-#containts .contact .menu2 .tabcontent .reqi p h3{
-    font-weight: bold;
-}
-#containts .contact .menu2 .tabcontent .reqi .p3 i{
-    color: #0F6EC6;
-    font-size: 8px;
-    margin-left: 20px;
-    margin-right: 5px;
-}
-#containts .contact .menu2 .tabcontent .reqi .p4 i{
-    color: #0F6EC6;
-    font-size: 8px;
-    margin-left: 40px;
 }
 /*------------design-------------------*/
 #containts .contact .menu2 .tabcontent .desi .dow1{
