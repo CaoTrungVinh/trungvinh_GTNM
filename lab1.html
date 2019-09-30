@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="stylecss/lab_bai1.css">
     <!--    font-->
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -63,14 +64,13 @@
     <div id="sidebar-wrapper">
         <div class="side-top">
             <div class="logo-sidebar">
-                <a href="index.html"><img src="img/logo.png" height="120" width="120" alt="image"></a>
+                <a href="index.html"><img src="images/img/logo.png" height="120" width="120" alt="image"></a>
             </div>
             <ul class="sidebar-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a class="active" href="lab1.html">Bài tập</a></li>
 
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="barbers.html">Our Barbers</a></li>
                 <li><a href="appointment.html">Appointment</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -81,21 +81,20 @@
             <div class="menu">
                 <button class="bt-lab1"><a href="#" class="lab1 lab">Lab 1</a></button>
                 <button class="bt-lab"><a href="lab2.html" class="lab2 lab">Lab 2</a></button>
-                <button class="bt-lab"><a href="" class="lab3 lab">Lab 3</a></button>
+                <button class="bt-lab"><a href="lab3.html" class="lab3 lab">Lab 3</a></button>
                 <button class="bt-lab"><a href="" class="lab4 lab">Lab 4</a></button>
             </div>
             <div class="dow">
                 <a><i class="fas fa-angle-double-down"></i></a>
             </div>
+            <div class="tab-containt">
+                <div class="w3-bar tab">
+                    <button class="w3-bar-item w3-button" onclick="openCity('Requinement')">Requinement</button>
+                    <button class="w3-bar-item w3-button" onclick="openCity('Design')">Design</button>
+                    <button class="w3-bar-item w3-button" onclick="openCity('Implement')">Implement</button>
+                </div>
 
-            <div class="tab">
-                <button class="tablinks" onclick="openCity(event, 'Requinement')">Requinement</button>
-                <button class="tablinks" onclick="openCity(event, 'Design')">Design</button>
-                <button class="tablinks" onclick="openCity(event, 'Implement')">Implement</button>
-            </div>
-
-            <div class="menu2 show">
-                <div id="Requinement" class="tabcontent">
+                <div id="Requinement" class="w3-container city">
                     <div class="reqi">
                         <div class="dow1">
                             <a><i class="fas fa-angle-down"></i></a>
@@ -131,16 +130,17 @@
                             html.</p>
                     </div>
                 </div>
-                <div id="Design" class="tabcontent">
+
+                <div id="Design" class="w3-container city" style="display:none">
                     <div class="desi">
                         <div class="dow1">
                             <a><i class="fas fa-angle-down"></i></a>
                         </div>
-                    <h3>Design</h3>
+                        <h3>Design</h3>
                     </div>
                 </div>
 
-                <div id="Implement" class="tabcontent">
+                <div id="Implement" class="w3-container city" style="display:none">
                     <div class="imple">
                         <div class="dow1">
                             <a><i class="fas fa-angle-down"></i></a>
@@ -150,26 +150,19 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 
 <script>
-    function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
+    function openCity(cityName) {
+        var i;
+        var x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
         }
         document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
     }
 </script>
-<!--<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>-->
 
 <!-- ALL JS FILES -->
 <script src="js/all.js"></script>

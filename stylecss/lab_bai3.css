@@ -23,7 +23,7 @@
     color: white;
     font-weight: bold;
 }
-#containts .contact .menu .bt-lab2{
+#containts .contact .menu .bt-lab3{
     background: #F44336;
 }
 #containts .contact .menu .bt-lab:hover{
@@ -35,7 +35,7 @@
 
 /*----------tab--------------*/
 #containts .contact .dow{
-    margin-left: 175px;
+    margin-left: 295px;
     height: 25px;
     color: black;
     margin-top: 5px;
