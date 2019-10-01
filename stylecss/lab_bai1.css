@@ -93,22 +93,37 @@
 #containts .contact #Design .desi .dow1{
     margin-left: 230px;
 }
-#containts .contact #Design .desi .cont_hover{
-    /*box-sizing: border-box;*/
-    /*overflow: hidden;*/
-    display: block;
+#containts .contact #Design .desi .img h3{
+    font-weight: bold;
 }
-#containts .contact #Design .desi .cont_hover:hover{
-    float: left;
-    margin-left: 200px;
-    margin-top: 200px;
-    transform: scale(2);
-    transition: 1s;
+#containts .contact #Design .desi .img .img-tay{
+    margin-top: 30px;
+}
+#containts .contact #Design .desi .img .img-tay button{
+    margin-left: 150px;
+}
+.btn_lab1{
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    outline: none;
+}
+.btn_lab1:hover{
+    background: #0069D9;
+    color: black;
+}
+#containts .contact #Design .desi .img .img-figma{
+    margin-top: 50px;
+}
+#containts .contact #Design .desi .img .img-figma button{
+    margin-left: 150px;
 }
 #containts .contact #Design .desi button{
-    float: right;
-    margin-right: 500px;
-    margin-top: -200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 /*--------------Imple-------------------------*/
 #containts .contact #Implement{
