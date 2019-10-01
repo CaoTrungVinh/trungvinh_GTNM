@@ -5,7 +5,10 @@
    
 }
 #sidebar-wrapper .side-top .logo-sidebar {
-    margin-top: -40px;
+    /*margin-top: -30px;*/
+}
+#sidebar-wrapper .side-top ul li{
+    font-size: 18px;
 }
 #containts .contact .menu{
     height: 50px;
@@ -13,11 +16,14 @@
     margin-left: 0px;
 }
 #containts .contact .menu button{
-    width: 120px;
+    width: 130px;
     height: 50px;
     background: none;
     border: none;
     float: left;
+}
+#containts .contact .menu button a{
+    font-size: 21px;
 }
 #containts .contact .menu a{
     color: white;
@@ -52,6 +58,7 @@
     height: 50px;
     font-weight: bold;
     color: black;
+    font-size: 17px;
 }
 #containts .contact .tab-containt .tab button:hover{
     background-color: #ddd;

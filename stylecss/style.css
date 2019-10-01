@@ -6,5 +6,8 @@
 }
 
 #sidebar-wrapper .side-top .logo-sidebar {
-    margin-top: -40px;
+    /*margin-top: -30px;*/
+}
+#sidebar-wrapper .side-top ul li{
+    font-size: 18px;
 }
