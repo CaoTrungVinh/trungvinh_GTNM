@@ -13,10 +13,15 @@
     font-size: 18px;
 }
 
+#containts .contact .fix {
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+
 #containts .contact .menu {
     height: 50px;
     background: black;
-    margin-left: 0px;
 }
 
 #containts .contact .menu button {
@@ -49,22 +54,34 @@
 }
 
 /*----------tab--------------*/
-#containts .contact .dow {
-    margin-left: 450px;
-    height: 25px;
+#containts .contact .dow{
+    width: 100%;
+    background: white;
+    height: 30px;
     color: black;
-    margin-top: 5px;
+    position: fixed;
+    z-index: 100000;
+    padding: 5px 0px;
+}
+#containts .contact .dow a{
+    margin-left: 450px;
+
+}
+#containts .contact #Requinement .reqi{
+    margin-top: 135px;
 }
 
 #containts .contact #Requinement .reqi .dow1 {
     margin-left: 65px;
 }
 
-#containts .contact .tab-containt .tab {
+#containts .contact .tab-containt .tab{
     background-color: #f1f1f1;
     height: 50px;
+    position: fixed;
+    margin-top: 80px;
+    z-index: 100000;
 }
-
 #containts .contact .tab-containt .tab button {
     width: 170px;
     height: 50px;
@@ -82,6 +99,9 @@
 }
 
 /*------------design-------------------*/
+#containts .contact #Design .desi{
+    margin-top: 135px;
+}
 #containts .contact #Design {
     color: black;
 }
@@ -91,6 +111,9 @@
 }
 
 /*--------------Imple-------------------------*/
+#containts .contact #Implement .imple{
+    margin-top: 135px;
+}
 #containts .contact #Implement {
     color: black;
 }

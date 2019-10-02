@@ -1,83 +1,124 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Tahoma Arial;
-   
+
 }
+
 #sidebar-wrapper .side-top .logo-sidebar {
     /*margin-top: -30px;*/
 }
-#sidebar-wrapper .side-top ul li{
+
+#sidebar-wrapper .side-top ul li {
     font-size: 18px;
 }
-#containts .contact .menu{
+
+#containts .contact .fix {
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+
+#containts .contact .menu {
     height: 50px;
     background: black;
-    margin-left: 0px;
 }
-#containts .contact .menu button{
+
+#containts .contact .menu button {
     width: 130px;
     height: 50px;
     background: none;
     border: none;
     float: left;
 }
-#containts .contact .menu button a{
+
+#containts .contact .menu button a {
     font-size: 21px;
 }
-#containts .contact .menu a{
+
+#containts .contact .menu a {
     color: white;
     font-weight: bold;
 }
-#containts .contact .menu .bt-lab2{
+
+#containts .contact .menu .bt-lab2 {
     background: #F44336;
 }
-#containts .contact .menu .bt-lab:hover{
+
+#containts .contact .menu .bt-lab:hover {
     background: #CCCCCC;
 }
-#containts .contact .menu .bt-lab:hover a{
+
+#containts .contact .menu .bt-lab:hover a {
     color: black;
 }
 
 /*----------tab--------------*/
-#containts .contact .dow{
-    margin-left: 190px;
-    height: 25px;
+#containts .contact .dow {
+    width: 100%;
+    background: white;
+    height: 30px;
     color: black;
-    margin-top: 5px;
+    position: fixed;
+    z-index: 100000;
+    padding: 5px 0px;
 }
-#containts .contact #Requinement .reqi .dow1{
+
+#containts .contact .dow a {
+    margin-left: 190px;
+}
+
+#containts .contact #Requinement .reqi {
+    margin-top: 135px;
+}
+
+#containts .contact #Requinement .reqi .dow1 {
     margin-left: 65px;
 }
 #containts .contact .tab-containt .tab{
     background-color: #f1f1f1;
     height: 50px;
+    position: fixed;
+    margin-top: 80px;
+    z-index: 100000;
 }
-#containts .contact .tab-containt .tab button{
+
+#containts .contact .tab-containt .tab button {
     width: 170px;
     height: 50px;
     font-weight: bold;
     color: black;
     font-size: 17px;
 }
-#containts .contact .tab-containt .tab button:hover{
+
+#containts .contact .tab-containt .tab button:hover {
     background-color: #ddd;
 }
-#containts .contact .tab-containt #Requinement .reqi{
+
+#containts .contact .tab-containt #Requinement .reqi {
     color: black;
 }
 
 /*------------design-------------------*/
-#containts .contact #Design{
+#containts .contact #Design .desi{
+    margin-top: 135px;
+}
+#containts .contact #Design {
     color: black;
 }
-#containts .contact #Design .desi .dow1{
+
+#containts .contact #Design .desi .dow1 {
     margin-left: 230px;
 }
+
 /*--------------Imple-------------------------*/
-#containts .contact #Implement{
+#containts .contact #Implement .imple{
+    margin-top: 135px;
+}
+#containts .contact #Implement {
     color: black;
 }
-#containts .contact #Implement .imple .dow1{
+
+#containts .contact #Implement .imple .dow1 {
     margin-left: 400px;
 }
