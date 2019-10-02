@@ -68,6 +68,9 @@
     position: fixed;
     margin-top: 80px;
     z-index: 100000;
+    -webkit-box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
 }
 #containts .contact .tab-containt .tab button{
     width: 170px;
@@ -148,6 +151,7 @@
     margin-left: 150px;
 }
 #containts .contact #Design .desi button{
+    margin-left: 200px;
     margin-top: 50px;
     margin-bottom: 100px;
 }
@@ -160,4 +164,128 @@
 }
 #containts .contact #Implement .imple .dow1{
     margin-left: 400px;
+}
+#containts .contact #Implement .imple .imple_student{
+    width: 800px;
+    height: 800px;
+    background: #F0F0F0;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 1px solid #d8cfcf;
+}
+#containts .contact #Implement .imple .imple_student h2{
+    color: #0000FF;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px;
+}
+#containts .contact #Implement .imple .imple_student .nhapDL{
+    width: 700px;
+    height: 195px;
+    margin: auto;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#containts .contact #Implement .imple .imple_student .nhapDL .nhap1{
+    height: 100%;
+    width: 100px;
+    float: left;
+}
+#containts .contact #Implement .imple .imple_student .nhapDL .nhap1 p{
+    margin: 30px;
+}
+#containts .contact #Implement .imple .imple_student .nhapDL .nhap2{
+    height: 100%;
+    width: 240px;
+    float: left;
+}
+#containts .contact #Implement .imple .imple_student .nhapDL .nhap2 input{
+    width: 200px;
+    margin: 27px 10px 0px 0px;
+    border-radius: 5px;
+    border: 1px solid #A9A9A9;
+    outline: none;
+}
+#containts .contact #Implement .imple .imple_student .nhapDL .nhap3{
+    height: 100%;
+    width: 100px;
+    float: left;
+}
+#containts .contact #Implement .imple .imple_student .nhapDL .nhap3 p{
+    margin: 30px;
+}
+#containts .contact #Implement .imple .imple_student .nhapDL .nhap4{
+    height: 100%;
+    width: 240px;
+    float: right;
+}
+#containts .contact #Implement .imple .imple_student .nhapDL .nhap4 input{
+    width: 200px;
+    margin: 27px 10px 0px 0px;
+    border-radius: 5px;
+    border: 1px solid #A9A9A9;
+    outline: none;
+}
+#containts .contact #Implement .imple .imple_student .btn_all{
+    width: 550px;
+    height: 100px;
+    margin: auto;
+}
+#containts .contact #Implement .imple .imple_student .btn_all button{
+    background: #F77825;
+    width: 110px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin: 50px 12px ;
+    color: white;
+    outline: none;
+    font-weight: bold;
+}
+#containts .contact #Implement .imple .imple_student .btn_all button:hover{
+    background: #f75d16;
+    color: black;
+}
+#containts .contact #Implement .imple .imple_student .search{
+    width: 530px;
+    height: 80px;
+    margin: auto;
+}
+#containts .contact #Implement .imple .imple_student .search p{
+    float: left;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-right:23px
+}
+#containts .contact #Implement .imple .imple_student .search input{
+    float: left;
+    width: 440px;
+    height: 30px;
+    margin-top: 35px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #A9A9A9;
+}
+#containts .contact #Implement .imple .imple_student .tab_imple{
+    width: 700px;
+    margin: auto;
+}
+#containts .contact #Implement .imple .imple_student .tab_imple table {
+    margin-top: 35px;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100px;
+}
+
+#containts .contact #Implement .imple .imple_student .tab_imple td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+#containts .contact #Implement .imple .imple_student .tab_imple tr:nth-child(even) {
+    background-color: #dddddd;
 }
