@@ -131,6 +131,11 @@
     width: 120px;
     height: 40px;
     outline: none;
+    font-weight: bold;
+}
+.btn_lab1 i{
+    font-size: 10px;
+    margin: 5px;
 }
 .btn_lab1:hover{
     background: #0069D9;
