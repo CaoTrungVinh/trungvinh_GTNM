@@ -101,6 +101,17 @@
 #containts .contact .tab-containt #Requinement .reqi {
     color: black;
 }
+/*------------user-------------------*/
+#containts .contact #User .user{
+    margin-top: 135px;
+}
+#containts .contact #User {
+    color: black;
+}
+
+#containts .contact #User .user .dow1 {
+    margin-left: 230px;
+}
 
 /*------------design-------------------*/
 #containts .contact #Design .desi{
@@ -111,7 +122,7 @@
 }
 
 #containts .contact #Design .desi .dow1 {
-    margin-left: 230px;
+    margin-left: 400px;
 }
 
 /*--------------Imple-------------------------*/
@@ -123,5 +134,5 @@
 }
 
 #containts .contact #Implement .imple .dow1 {
-    margin-left: 400px;
+    margin-left: 570px;
 }
