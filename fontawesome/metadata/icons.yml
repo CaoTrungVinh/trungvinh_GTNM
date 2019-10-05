@@ -2433,7 +2433,7 @@ calculator:
     - '4.2'
     - 5.0.0
     - 5.3.0
-  label: Calculator
+  label: MT
   search:
     terms:
       - abacus
