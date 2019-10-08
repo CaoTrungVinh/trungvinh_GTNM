@@ -1,12 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Tahoma Arial;
+    font-family:Arial;
 
 }
 
 #sidebar-wrapper .side-top .logo-sidebar {
-    /*margin-top: -30px;*/
+    margin-top: 20px;
 }
 
 #sidebar-wrapper .side-top ul li {
