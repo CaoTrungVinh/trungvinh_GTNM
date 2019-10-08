@@ -6,11 +6,11 @@
 }
 
 #sidebar-wrapper .side-top .logo-sidebar {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 
 #sidebar-wrapper .side-top ul li {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 #containts .contact .fix {
@@ -153,6 +153,9 @@
 #containts .contact #Design .desi .img .img-tay {
     margin-top: 30px;
 }
+#containts .contact #Design .desi .img .img-tay img{
+    margin-left: 30px;
+}
 
 #containts .contact #Design .desi .img .img-tay button {
     margin-left: 150px;
@@ -203,6 +206,9 @@
 
 #containts .contact #Design .desi .img .img-figma {
     margin-top: 50px;
+}
+#containts .contact #Design .desi .img .img-figma img{
+    margin-left: 30px;
 }
 
 #containts .contact #Design .desi .img .img-figma button {
