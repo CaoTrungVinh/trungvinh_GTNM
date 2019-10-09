@@ -124,6 +124,21 @@ body{
 
 #containts .contact .tab-containt #Requinement .reqi {
     color: black;
+    margin-bottom: 280px;
+}
+/*hien thuc*/
+#containts .contact #Requinement .reqi h1 {
+    font-weight: bold;
+    color: #04617A;
+}
+#containts .contact #Requinement .reqi p {
+    font-size: 17px;
+}
+#containts .contact #Requinement .reqi p i {
+    color: #0F6EC6;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
 }
 /*------------user-------------------*/
 #containts .contact #User .user{
@@ -131,22 +146,82 @@ body{
 }
 #containts .contact #User {
     color: black;
+    margin-bottom: 15px;
 }
 
 #containts .contact #User .user .dow1 {
     margin-left: 230px;
 }
-
+#containts .contact #User .user img{
+    margin: 10px 150px;
+}
 /*------------design-------------------*/
-#containts .contact #Design .desi{
+#containts .contact #Design .desi {
     margin-top: 135px;
 }
+
 #containts .contact #Design {
     color: black;
 }
 
 #containts .contact #Design .desi .dow1 {
     margin-left: 400px;
+}
+
+#containts .contact #Design .desi .img h3 {
+    font-weight: bold;
+}
+
+#containts .contact #Design .desi .img .img-tay {
+    margin-top: 30px;
+}
+#containts .contact #Design .desi .img .img-tay img{
+    margin-left: 30px;
+}
+
+#containts .contact #Design .desi .img .img-tay button {
+    margin-left: 150px;
+}
+
+.btn_lab1 {
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 140px;
+    height: 50px;
+    outline: none;
+    font-weight: bold;
+}
+
+.btn_lab1 i {
+    font-size: 10px;
+    margin: 5px;
+}
+
+.btn_lab1:hover {
+    background: #0069D9;
+    color: black;
+    -webkit-box-shadow: 0px 3px 24px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 24px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 24px -2px rgba(0, 0, 0, 0.75);
+}
+
+#containts .contact #Design .desi .img .img-figma {
+    margin-top: 50px;
+}
+#containts .contact #Design .desi .img .img-figma img{
+    margin-left: 30px;
+}
+
+#containts .contact #Design .desi .img .img-figma button {
+    margin-left: 150px;
+}
+
+#containts .contact #Design .desi button {
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 /*--------------Imple-------------------------*/
