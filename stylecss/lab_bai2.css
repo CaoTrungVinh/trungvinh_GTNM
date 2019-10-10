@@ -180,7 +180,7 @@ body{
 }
 
 #containts .contact #Design .desi .img .img-tay button {
-    margin-left: 150px;
+    margin-left: 80px;
 }
 
 .btn_lab1 {
@@ -215,7 +215,7 @@ body{
 }
 
 #containts .contact #Design .desi .img .img-figma button {
-    margin-left: 150px;
+    margin-left: 80px;
 }
 
 #containts .contact #Design .desi button {
@@ -230,8 +230,47 @@ body{
 }
 #containts .contact #Implement {
     color: black;
+    margin-bottom: 100px;
 }
 
 #containts .contact #Implement .imple .dow1 {
     margin-left: 570px;
+    margin-bottom: 50px;
+}
+#containts .contact #Implement .imple .left_img{
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#containts .contact #Implement .imple .right_tt{
+    float: right;
+    /*border: 1px solid black;*/
+    margin-right: 200px;
+    margin-top: 50px;
+}
+#containts .contact #Implement .imple .right_tt .gia p{
+    float: left;
+    color: red;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#containts .contact #Implement .imple .right_tt .gia button{
+    margin-left: 50px;
+    border: none;
+    background: #F28902;
+    color: white;
+    width: 110px;
+    height: 33px;
+    border-radius: 8px;
+    outline: none;
+    font-weight: bolder;
+    margin-top: -3px;
+}
+#containts .contact #Implement .imple .right_tt .khuyenmai{
+    border: 2px solid #C1BFBF;
+    margin-top: 5px;
+    width: 325px;
+    padding: 10px;
+}
+#containts .contact #Implement .imple .right_tt .khuyenmai p{
 }
