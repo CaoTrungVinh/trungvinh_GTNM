@@ -42,10 +42,6 @@
     <![endif]-->
 </head>
 <body class="barber_version">
-<!--<div class="load">-->
-
-<!--    <img src="images/img/loader.gif" height="200" width="200"/></div>-->
-<!-- LOADER -->
 <div id="preloader">
     <div class="cube-wrapper">
         <div class="cube-folding">
@@ -90,61 +86,192 @@
                     <a><i class="fas fa-angle-double-down"></i></a>
                 </div>
             </div>
-            <div class="tab-containt">
-                <div class="tab-contact">
-                    <div class="w3-bar tab">
-                        <button class="w3-bar-item w3-button" onclick="openCity('Requinement')">Requinement</button>
-                        <button class="w3-bar-item w3-button" onclick="openCity('Design')">Design</button>
-                        <button class="w3-bar-item w3-button" onclick="openCity('Implement')">Implement</button>
+            <!--            tab-->
+            <div id="colorlib-main">
+                <section class="ftco-section-2">
+                    <div class="tab tab-0">
+                        <button class="tablinks active" onclick="openCity(event, 'EX1')" id="defaultOpen">Exercise 1
+                        </button>
+                        <button class="tablinks" onclick="openCity(event, 'EX2')">Exercise 2</button>
                     </div>
-                </div>
-
-                <div id="Requinement" class="w3-container city">
-                    <div class="reqi">
-                        <div class="dow1">
-                            <a><i class="fas fa-angle-down"></i></a>
+                    <!--    EX1-->
+                    <div id="EX1" class="tabcontent" style="color: black;">
+                        <div class="tab-1 tab tab-sub">
+                            <button class="tablinks-1" onclick="openCity1(event, 'Requirement_EX1')" id="defaultOpen-1">
+                                Requirement
+                            </button>
+                            <button class="tablinks-1" onclick="openCity1(event, 'User_EX1')">User Scenario</button>
+                            <button class="tablinks-1" onclick="openCity1(event, 'Design_EX1')">Design</button>
+                            <button class="tablinks-1" onclick="openCity1(event, 'Implement_EX1')">Implement</button>
                         </div>
-                        <h1>Bài tập Lab 3</h1>
-                    </div>
-                </div>
 
-                <div id="Design" class="w3-container city" style="display:none">
-                    <div class="desi">
-                        <div class="dow1">
-                            <a><i class="fas fa-angle-down"></i></a>
+                        <div id="Requirement_EX1" class="tabcontent-1">
+                            <div class="HT_requi">
+                                <div class="dow1">
+                                    <a><i class="fas fa-angle-down"></i></a>
+                                </div>
+                                <div class="a">
+                                    <p>a</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                    <p>fgadsg</p>
+                                </div>
+                            </div>
                         </div>
-                        <h3>Design</h3>
-                    </div>
-                </div>
 
-                <div id="Implement" class="w3-container city" style="display:none">
-                    <div class="imple">
-                        <div class="dow1">
-                            <a><i class="fas fa-angle-down"></i></a>
+                        <div id="User_EX1" class="tabcontent-1">
+                            <div class="HT_user">
+                                <div class="dow2">
+                                    <a><i class="fas fa-angle-down"></i></a>
+                                </div>
+                            </div>
                         </div>
-                        <h3>Implement</h3>
+
+                        <div id="Design_EX1" class="tabcontent-1">
+                            <div class="HT_des">
+                                <div class="dow3">
+                                    <a><i class="fas fa-angle-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Implement_EX1" class="tabcontent-1">
+                            <div class="HT_Imple">
+                                <div class="dow4">
+                                    <a><i class="fas fa-angle-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <!--             ex2-->
+                    <div id="EX2" class="tabcontent" style="color: black;">
+                        <div class="tab-2 tab tab-sub">
+                            <button class="tablinks-2 active" onclick="openCity2(event, 'Requirement_EX2')"
+                                    id="defaultOpen-2">
+                                Requirement
+                            </button>
+                            <button class="tablinks-2" onclick="openCity2(event, 'User_EX2')">User Scenario</button>
+                            <button class="tablinks-2" onclick="openCity2(event, 'Design_EX2')">Design</button>
+                            <button class="tablinks-2" onclick="openCity2(event, 'Implement_EX2')">Implement</button>
+                        </div>
+
+                        <div id="Requirement_EX2" class="tabcontent-2">
+                            <div class="HT_requi2">
+                                <div class="dow1">
+                                    <a><i class="fas fa-angle-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="User_EX2" class="tabcontent-2">
+                            <div class="HT_user2">
+                                <div class="dow2">
+                                    <a><i class="fas fa-angle-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Design_EX2" class="tabcontent-2">
+                            <div class="HT_desi2">
+                                <div class="dow3">
+                                    <a><i class="fas fa-angle-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Implement_EX2" class="tabcontent-2">
+                            <div class="HT_Imple2">
+                                <div class="dow4">
+                                    <a><i class="fas fa-angle-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--        end ex2-->
+                </section>
             </div>
+            <!--           end-->
         </div>
     </div>
 </div>
-<a style="background: #BB9D52" href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+<a style="background: #BB9D52" href="#" id="scroll-to-top" class="dmtop global-radius"><i
+        class="fa fa-angle-up"></i></a>
 
 <script src="js_lib_load/js/jquery-3.3.1.min.js"></script>
 
 <script src="js_lib_load/js/script.js"></script>
+
 <script>
-    function openCity(cityName) {
-        var i;
-        var x = document.getElementsByClassName("city");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
         document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
     }
-</script>
 
+    document.getElementById("defaultOpen").click();
+</script>
+<script>
+    function openCity1(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent-1");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks-1");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active-1", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active-1";
+    }
+
+    document.getElementById("defaultOpen-1").click();
+</script>
+<script>
+    function openCity2(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent-2");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks-2");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active-2", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active-2";
+    }
+
+    document.getElementById("defaultOpen-2").click();
+</script>
 <!--<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>-->
 
 <!-- ALL JS FILES -->

@@ -4,9 +4,9 @@
     font-family:Arial;
 
 }
-body{
-    overflow: hidden;
-}
+/*body{*/
+/*    overflow: hidden;*/
+/*}*/
 /*dùng ảnh gif*/
 .load{
     width: 100%;
@@ -39,6 +39,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 100000;
+    float: top;
 }
 #containts .contact .menu{
     height: 50px;
@@ -83,65 +84,91 @@ body{
     position: fixed;
     z-index: 100000;
     padding: 5px 0px;
+    float: top;
+
 }
 #containts .contact .dow a{
     margin-left: 320px;
 
 }
-#containts .contact #Requinement .reqi{
-    margin-top: 135px;
-}
-
-#containts .contact #Requinement .reqi .dow1 {
-    margin-left: 65px;
-}
-#containts .contact .tab-containt .tab{
+#containts .contact #colorlib-main .ftco-section-2 .tab-0{
+    width: 100%;
     background-color: #f1f1f1;
     height: 50px;
     position: fixed;
-    margin-top: 80px;
+    margin-top: 78px;
     z-index: 100000;
-    -webkit-box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
+    float: top;
+    -webkit-box-shadow: 0px -10px 14px -14px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px -10px 14px -14px rgba(0,0,0,0.32);
+    box-shadow: 0px -10px 14px -14px rgba(0,0,0,0.32);
 }
-
-#containts .contact .tab-containt .tab button {
+#containts .contact #colorlib-main .ftco-section-2 .tab-0 button{
     width: 170px;
     height: 50px;
     font-weight: bold;
     color: black;
     font-size: 17px;
-}
+    border: none;
+    background: none;
+    float: left;
+    outline: none;
 
-#containts .contact .tab-containt .tab button:hover {
+}
+#containts .contact #colorlib-main .ftco-section-2 .tab-0 button.active {
+    background-color: #ccc;
+}
+#containts .contact #colorlib-main .ftco-section-2 .tab-0 button:hover {
     background-color: #ddd;
 }
-
-#containts .contact .tab-containt #Requinement .reqi {
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tab-1 button.active {
+    background-color: #ccc;
+}
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tab-sub{
+    background-color: #f1f1f1;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1100;
+    margin-top: 130px;
+    float: top;
+    -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.75);
+}
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tab-sub button {
+    width: 170px;
+    height: 50px;
+    font-weight: bold;
     color: black;
+    font-size: 17px;
+    border: none;
+    background: none;
+    float: left;
+    outline: none;
 }
-
-/*------------design-------------------*/
-#containts .contact #Design .desi{
-    margin-top: 135px;
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tab-sub button:hover {
+    background-color: #ddd;
 }
-#containts .contact #Design {
-    color: black;
+/*ẼX1*/
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tabcontent-1{
+    float: top;
+    padding-top: 185px;
 }
-
-#containts .contact #Design .desi .dow1 {
-    margin-left: 230px;
+.dow1{
+    margin-left: 80px;
 }
-
-/*--------------Imple-------------------------*/
-#containts .contact #Implement .imple{
-    margin-top: 135px;
+.dow2{
+    margin-left: 245px;
 }
-#containts .contact #Implement {
-    color: black;
+.dow3{
+    margin-left: 415px;
 }
-
-#containts .contact #Implement .imple .dow1 {
-    margin-left: 400px;
+.dow4{
+    margin-left: 590px;
+}
+/*EX2*/
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tabcontent-2{
+    float: top;
+    padding-top: 185px;
 }

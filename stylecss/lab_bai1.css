@@ -90,8 +90,8 @@ body{
 
 #containts .contact .dow a {
     margin-left: 55px;
-
 }
+
 #containts .contact #Requinement{
     margin-bottom: 80px;
 }
@@ -121,10 +121,13 @@ body{
     color: black;
     font-size: 17px;
 }
-
-#containts .contact .tab-containt .tab button:hover {
-    background-color: #ddd;
+.active, .btn:hover {
+    background-color: #666;
+    color: white;
 }
+/*#containts .contact .tab-containt .tab button:hover {*/
+/*    background-color: #ddd;*/
+/*}*/
 
 #containts .contact .tab-containt #Requinement .reqi {
     color: black;
