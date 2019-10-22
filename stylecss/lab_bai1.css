@@ -133,7 +133,11 @@ body{
     color: black;
 }
 
-#containts .contact #Requinement .reqi h1 {
+#containts .contact #Requinement .reqi h2 {
+    font-weight: bold;
+    color: #04617A;
+}
+#containts .contact #Requinement .reqi h5 {
     font-weight: bold;
     color: #04617A;
 }
@@ -148,14 +152,14 @@ body{
 
 #containts .contact #Requinement .reqi .p3 i {
     color: #0F6EC6;
-    font-size: 8px;
+    font-size: 10px;
     margin-left: 20px;
     margin-right: 5px;
 }
 
 #containts .contact #Requinement .reqi .p4 i {
     color: #0F6EC6;
-    font-size: 8px;
+    font-size: 10px;
     margin-left: 40px;
     margin-right: 5px;
 }
