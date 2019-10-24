@@ -212,7 +212,7 @@
 }
 
 #containts .contact #colorlib-main .ftco-section-2 p {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 #containts .contact #colorlib-main .ftco-section-2 .p3 i {
@@ -343,6 +343,7 @@
     float: left;
     height: 60px;
     width: 130px;
+    cursor:pointer;
 }
 .top_EX2 .right:hover{
     background: #659900;
@@ -369,6 +370,7 @@ table, th, td {
     width: 180px;
     height: 40px;
     text-align: center;
+    cursor:pointer;
 }
 tr:hover{
     background: #DDDDDD;
@@ -381,6 +383,7 @@ tr:hover{
 .xapxep select {
     width: 205px;
     height: 35px;
+    cursor:pointer;
 }
 .phone {
     float: left;

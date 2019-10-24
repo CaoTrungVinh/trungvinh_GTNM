@@ -132,7 +132,7 @@ body{
     color: #04617A;
 }
 #containts .contact #Requinement .reqi p {
-    font-size: 17px;
+    font-size: 16px;
 }
 #containts .contact #Requinement .reqi p i {
     color: #0F6EC6;
@@ -241,7 +241,35 @@ body{
     float: left;
     margin-top: 50px;
     margin-left: 100px;
+    overflow: hidden;
+    /*bộ 3*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
+#containts .contact #Implement .imple .img1{
+    position: relative;
+}
+#containts .contact #Implement .imple .img2{
+    background-color: #00000094;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#containts .contact #Implement .imple .left_img:hover .img2 {
+    bottom: 200px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+
 #containts .contact #Implement .imple .right_tt{
     float: right;
     /*border: 1px solid black;*/
@@ -249,6 +277,7 @@ body{
     margin-top: 50px;
 }
 #containts .contact #Implement .imple .right_tt button:hover{
+
     -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
