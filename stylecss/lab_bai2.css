@@ -34,9 +34,11 @@ body{
 }
 
 #sidebar-wrapper .side-top ul li {
-    font-size: 17px;
+    font-size: 18px;
 }
-
+#sidebar-wrapper .side-top ul li a{
+    font-weight: normal;
+}
 #containts .contact .fix {
     position: fixed;
     width: 100%;
@@ -57,20 +59,20 @@ body{
 }
 
 #containts .contact .menu button a {
-    font-size: 21px;
+    font-size: 18px;
 }
 
 #containts .contact .menu a {
     color: white;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 #containts .contact .menu .bt-lab2 {
-    background: #F44336;
+    background: #caa853;
 }
 
 #containts .contact .menu .bt-lab:hover {
-    background: #CCCCCC;
+    background: #caa853;
 }
 
 #containts .contact .menu .bt-lab:hover a {
@@ -93,7 +95,8 @@ body{
 }
 
 #containts .contact #Requinement .reqi {
-    margin-top: 135px;
+    margin-top: 132px;
+
 }
 
 #containts .contact #Requinement .reqi .dow1 {
@@ -105,15 +108,15 @@ body{
     position: fixed;
     margin-top: 80px;
     z-index: 100000;
-    -webkit-box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
 }
 
 #containts .contact .tab-containt .tab button {
     width: 170px;
     height: 50px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: black;
     font-size: 17px;
 }
@@ -168,12 +171,12 @@ body{
     margin-left: 400px;
 }
 
-#containts .contact #Design .desi .img h3 {
-    font-weight: bold;
+#containts .contact #Design .desi .img h4 {
+    /*font-weight: bold;*/
 }
 
 #containts .contact #Design .desi .img .img-tay {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 #containts .contact #Design .desi .img .img-tay img{
     margin-left: 30px;
@@ -191,7 +194,7 @@ body{
     width: 140px;
     height: 50px;
     outline: none;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .btn_lab1 i {
@@ -221,7 +224,7 @@ body{
 #containts .contact #Design .desi button {
     margin-left: 200px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 /*--------------Imple-------------------------*/

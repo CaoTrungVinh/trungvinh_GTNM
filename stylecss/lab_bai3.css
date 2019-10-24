@@ -36,9 +36,11 @@
 }
 
 #sidebar-wrapper .side-top ul li {
-    font-size: 17px;
+    font-size: 18px;
 }
-
+#sidebar-wrapper .side-top ul li a{
+    font-weight: normal;
+}
 #containts .contact .fix {
     position: fixed;
     width: 100%;
@@ -60,20 +62,19 @@
 }
 
 #containts .contact .menu button a {
-    font-size: 21px;
+    font-size: 18px;
 }
 
 #containts .contact .menu a {
     color: white;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
-
 #containts .contact .menu .bt-lab3 {
-    background: #F44336;
+    background: #caa853;
 }
 
 #containts .contact .menu .bt-lab:hover {
-    background: #CCCCCC;
+    background: #caa853;
 }
 
 #containts .contact .menu .bt-lab:hover a {
@@ -106,20 +107,16 @@
     margin-top: 78px;
     z-index: 100000;
     float: top;
-    /*-webkit-box-shadow: 0px -10px 14px -14px rgba(0,0,0,0.32);*/
-    /*-moz-box-shadow: 0px -10px 14px -14px rgba(0,0,0,0.32);*/
-    /*box-shadow: 0px -10px 14px -14px rgba(0,0,0,0.32);*/
-
-    -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
 
 }
 
 #containts .contact #colorlib-main .ftco-section-2 .tab-0 button {
     width: 170px;
     height: 50px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: black;
     font-size: 17px;
     border: none;
@@ -147,17 +144,17 @@
     width: 100%;
     position: fixed;
     z-index: 1300;
-    margin-top: 130px;
+    margin-top: 128px;
     float: top;
-    -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
 }
 
 #containts .contact #colorlib-main .ftco-section-2 .tabcontent .tab-sub button {
     width: 170px;
     height: 50px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: black;
     font-size: 17px;
     border: none;
@@ -178,7 +175,7 @@
 
 #containts .contact #colorlib-main .ftco-section-2 #EX1 {
     float: top;
-    padding-top: 135px;
+    padding-top: 132px;
     margin-bottom: 180px;
 }
 
@@ -240,13 +237,13 @@
     margin-left: 18px;
 }
 
-.HT_requi2 .img h3 {
-    font-weight: bold;
+.HT_requi2 .img h4 {
+    /*font-weight: bold;*/
 
 }
 
 .HT_requi2 .img .img-tay {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .HT_requi2 .img .img-tay img {
@@ -265,7 +262,6 @@
     width: 140px;
     height: 50px;
     outline: none;
-    font-weight: bold;
 }
 
 .btn_lab1 i {
@@ -296,7 +292,7 @@
 .HT_requi2 button {
     margin-left: 200px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 /*------ex2 implement*/
 #User_EX2 .HT_user2 {
@@ -309,7 +305,7 @@
     margin-top: 30px;
     background: #F0F0F0;
     height: 783px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 .top_EX2{
     background: #BFED67;
@@ -445,7 +441,7 @@ tr:hover{
     margin-top: 30px;
     background: #F0F0F0;
     height: 393px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 .congnghe {
     width: 300px;

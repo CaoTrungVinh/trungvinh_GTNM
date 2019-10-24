@@ -33,5 +33,8 @@
     /*margin-top: 20px;*/
 }
 #sidebar-wrapper .side-top ul li{
-    font-size: 17px;
+    font-size: 18px;
+}
+#sidebar-wrapper .side-top ul li a{
+    font-weight: normal;
 }

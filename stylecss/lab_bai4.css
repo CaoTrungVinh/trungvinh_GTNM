@@ -34,9 +34,11 @@ body{
 }
 
 #sidebar-wrapper .side-top ul li {
-    font-size: 17px;
+    font-size: 18px;
 }
-
+#sidebar-wrapper .side-top ul li a{
+    font-weight: normal;
+}
 #containts .contact .fix {
     position: fixed;
     width: 100%;
@@ -57,20 +59,19 @@ body{
 }
 
 #containts .contact .menu button a {
-    font-size: 21px;
+    font-size: 18px;
 }
 
 #containts .contact .menu a {
     color: white;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
-
 #containts .contact .menu .bt-lab4 {
-    background: #F44336;
+    background: #caa853;
 }
 
 #containts .contact .menu .bt-lab:hover {
-    background: #CCCCCC;
+    background: #caa853;
 }
 
 #containts .contact .menu .bt-lab:hover a {
@@ -112,7 +113,7 @@ body{
 #containts .contact .tab-containt .tab button {
     width: 170px;
     height: 50px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: black;
     font-size: 17px;
 }
