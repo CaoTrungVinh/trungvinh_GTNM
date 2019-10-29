@@ -93,7 +93,7 @@ body{
 
 }
 #containts .contact #Requinement .reqi{
-    margin-top: 135px;
+    margin-top: 132px;
 }
 
 #containts .contact #Requinement .reqi .dow1 {
@@ -106,9 +106,9 @@ body{
     position: fixed;
     margin-top: 80px;
     z-index: 100000;
-    -webkit-box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
 }
 #containts .contact .tab-containt .tab button {
     width: 170px;
@@ -124,6 +124,24 @@ body{
 
 #containts .contact .tab-containt #Requinement .reqi {
     color: black;
+}
+
+#containts .contact #Requinement{
+    margin-bottom: 350px;
+}
+#containts .contact #Requinement .reqi h2 {
+    font-weight: bold;
+    color: #04617A;
+}
+#containts .contact #Requinement .reqi p {
+    font-size: 16px;
+}
+
+#containts .contact #Requinement .reqi p i {
+    color: #0F6EC6;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
 }
 
 /*------------design-------------------*/
