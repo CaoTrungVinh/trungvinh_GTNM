@@ -125,7 +125,20 @@ body{
 #containts .contact .tab-containt #Requinement .reqi {
     color: black;
 }
+#containts .contact #Requinement .reqi h2 {
+    font-weight: bold;
+    color: #04617A;
+}
+#containts .contact #Requinement .reqi p {
+    font-size: 16px;
+}
 
+#containts .contact #Requinement .reqi p i {
+    color: #0F6EC6;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
 /*------------design-------------------*/
 #containts .contact #Design .desi{
     margin-top: 135px;

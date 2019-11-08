@@ -5,7 +5,7 @@
  * Released under the MIT license
  *
  * Retina.js is an open source script that makes it easy to serve
- * high-resolution images to devices with retina displays.
+ * high-resolution imagesss to devices with retina displays.
  */
 'use strict';
 
@@ -55,7 +55,7 @@ function arrayify(object) {
  * will be used to create a suffix like "@2x" or "@3x".
  *
  * @param  {String|Number} cap The number the user provided indicating that
- *                             they have prepared images up to this size.
+ *                             they have prepared imagesss up to this size.
  *
  * @return {Number} The number we'll be using to create a suffix.
  */
@@ -64,7 +64,7 @@ function chooseCap(cap) {
 
   /*
    * If the environment's device pixel ratio is less than what the user
-   * provided, we'll only grab images at that size.
+   * provided, we'll only grab imagesss at that size.
    */
   if (environment < numericCap) {
     return environment;
@@ -148,7 +148,7 @@ function setSourceIfAvailable(image, retinaURL) {
  *
  * @param  {Element}       image An image in the DOM.
  * @param  {String}        src   The original image source attribute.
- * @param  {String|Number} rjs   The pixel density cap for images provided.
+ * @param  {String|Number} rjs   The pixel density cap for imagesss provided.
  *
  * @return {undefined}
  */
@@ -182,7 +182,7 @@ function manualSwapImage(image, src, hdsrc) {
 }
 
 /**
- * Collects all images matching our selector, and converts our
+ * Collects all imagesss matching our selector, and converts our
  * NodeList into an Array so that Array methods will be available to it.
  *
  * @param {Iterable} images  Optional. An Array, jQuery selection, or NodeList
@@ -210,13 +210,13 @@ function cleanBgImg(img) {
 }
 
 /**
- * Gets all participating images and dynamically swaps out each one for its
+ * Gets all participating imagesss and dynamically swaps out each one for its
  * retina equivalent taking into account the environment capabilities and
- * the densities for which the user has provided images.
+ * the densities for which the user has provided imagesss.
  *
  * @param {Iterable} images  Optional. An Array, jQuery selection, or NodeList
  *                           of elements to affect with retina.js. If not
- *                           provided, retina.js will grab all images on the
+ *                           provided, retina.js will grab all imagesss on the
  *                           page.
  *
  * @return {undefined}
