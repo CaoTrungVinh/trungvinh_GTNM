@@ -71,10 +71,12 @@ body{
 
 #containts .contact .menu .bt-lab1 {
     background: #caa853;
+    border-radius: 5px;
 }
 
 #containts .contact .menu .bt-lab:hover {
     background: #caa853;
+    border-radius: 5px;
 }
 
 #containts .contact .menu .bt-lab:hover a {
