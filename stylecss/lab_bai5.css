@@ -4,6 +4,9 @@
     font-family:Arial;
 
 }
+#Design .desi h4{
+    font-family: Arial;
+}
 body{
     overflow: hidden;
 }
@@ -184,6 +187,9 @@ body{
     -webkit-box-shadow: -5px 7px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -5px 7px 5px 0px rgba(0,0,0,0.75);
     box-shadow: -5px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.btn_lab1 a:hover {
+    color: white;
 }
 
 #containts .contact #Design .desi .img .img-figma {

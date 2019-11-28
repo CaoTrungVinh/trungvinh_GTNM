@@ -32,7 +32,7 @@ body.barber_version .navbar-nav span {
 
 body.barber_version .sidebar-nav li:hover a {
     background: #bb9d52;
-	color: #ffffff;
+    color: #ffffff;
 }
 
 body.barber_version .lead strong,
@@ -51,13 +51,13 @@ body.barber_version .icon_wrap:hover,
 body.barber_version .nav-pills > li.active > a,
 body.barber_version .nav-pills > li.active > a:focus,
 body.barber_version .nav-pills > li.active > a:hover,
-body.barber_version .icon-wrapper:hover i{
+body.barber_version .icon-wrapper:hover i {
     color: #ffffff;
-    background: #bb9d52;   
+    background: #bb9d52;
 }
 
 body.barber_version .grd1 {
-	color: #ffffff;
+    color: #ffffff;
     background: #111111;
 }
 
@@ -74,7 +74,7 @@ body.barber_version .nav-pills > li.active > a:hover,
 body.barber_version .divider-bar,
 body.barber_version .owl-next:hover i,
 body.barber_version .owl-prev:hover i,
-body.barber_version .icon-wrapper:hover i:hover{
+body.barber_version .icon-wrapper:hover i:hover {
     background-position: 100px;
     color: #ffffff;
     background: #111111;
@@ -82,19 +82,19 @@ body.barber_version .icon-wrapper:hover i:hover{
 
 body.barber_version .grd1:hover,
 body.barber_version .grd1:focus {
-	color: #ffffff;
+    color: #ffffff;
     background: #bb9d52;
 }
 
-body.barber_version .cac:hover{
-	background: #bb9d52;
+body.barber_version .cac:hover {
+    background: #bb9d52;
 }
 
 body.barber_version .effect-1:after {
     box-shadow: 0 0 0 2px #bb9d52;
 }
 
-body.barber_version {    
+body.barber_version {
     overflow-x: hidden;
 }
 
@@ -102,7 +102,7 @@ body.barber_version .first-section .grd1 {
     border: 0 !important;
     padding: 17px 40px;
     font-size: 15px;
-	font-weight: 600;
+    font-weight: 600;
 }
 
 body.barber_version .container-fluid {
@@ -127,12 +127,12 @@ body.barber_version .menuopener {
     height: 50px;
     display: none;
     line-height: 50px;
-	font-size: 24px;
+    font-size: 24px;
     text-align: center;
 }
 
-body.barber_version .menuopener:hover{
-	background-color: #111111;
+body.barber_version .menuopener:hover {
+    background-color: #111111;
 }
 
 body.barber_version #wrapper {
@@ -179,8 +179,8 @@ body.barber_version .contact_form .btn {
     border: 0 !important;
 }
 
-body.barber_version .contact_form .btn.subt{
-	background: #bb9d52;
+body.barber_version .contact_form .btn.subt {
+    background: #bb9d52;
 }
 
 body.barber_version .section.db,
@@ -229,20 +229,20 @@ body.barber_version .logo-sidebar {
 
 body.barber_version .sidebar-nav li {
     line-height: 45px;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 body.barber_version .sidebar-nav li a {
     display: block;
     text-decoration: none;
     color: #999999;
-	background-color: transparent;
-	font-weight: 600;
-	padding: 7px 17px 7px;
-	-webkit-border-radius: 10px;
-	-ms-border-radius: 10px;
-	border-radius: 10px;
-	line-height: 21px;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 7px 17px 7px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    line-height: 21px;
 }
 
 body.barber_version .sidebar-nav li a:hover {
@@ -280,14 +280,14 @@ body.barber_version hr.invis4 {
 
 body.barber_version .service-wrap {
     margin: 30px 0;
-	padding: 20px;
+    padding: 20px;
     display: block;
     position: relative;
     background: #ffffff;
-	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
-	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
-	border-radius: 10px;
-	transition: all 1s ease-in-out;
+    -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
 }
 
 body.barber_version .service-wrap h4 {
@@ -317,10 +317,10 @@ body.barber_version .dev-list img {
 
 body.barber_version .dev-list .widget {
     padding: 30px;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
     border: 1px solid #ededed;
-	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
-	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 }
 
 body.barber_version .dev-list .widget h3 {
@@ -341,33 +341,39 @@ body.barber_version .dev-list .widget-title {
     line-height: 1 !important;
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
     body.barber_version .menuopener {
         display: block;
     }
+
     body.barber_version .first-section h2 strong,
     body.barber_version .first-section h2 {
         font-size: 36px;
     }
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     body.barber_version #wrapper {
         padding-left: 285px;
     }
+
     body.barber_version #wrapper.toggled {
         padding-left: 0;
     }
+
     body.barber_version #sidebar-wrapper {
         width: 285px;
     }
+
     body.barber_version #wrapper.toggled #sidebar-wrapper {
         width: 0;
     }
+
     body.barber_version #page-content-wrapper {
         padding: 0;
         position: relative;
     }
+
     body.barber_version #wrapper.toggled #page-content-wrapper {
         position: relative;
         margin-right: 0;
@@ -420,7 +426,7 @@ body.building_version .grd1 {
     background: -moz-linear-gradient(left, #ffc000 0%, #fdde00 100%);
     background: -webkit-linear-gradient(left, #ffc000 0%, #fdde00 100%);
     background: linear-gradient(to right, #ffc000 0%, #fdde00 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc000', endColorstr='#fdde00', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc000', endColorstr='#fdde00', GradientType=1);
 }
 
 body.building_version .dev-list .widget h3,
@@ -445,7 +451,7 @@ body.building_version .grd1:focus {
     background: -moz-linear-gradient(left, #fdde00 0%, #ffc000 100%);
     background: -webkit-linear-gradient(left, #fdde00 0%, #ffc000 100%);
     background: linear-gradient(to right, #fdde00 0%, #ffc000 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fdde00', endColorstr='#ffc000', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdde00', endColorstr='#ffc000', GradientType=1);
 }
 
 body.building_version .navbar-nav span {
