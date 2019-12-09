@@ -51,6 +51,7 @@ body{
 #containts .contact .menu {
     height: 50px;
     background: #111111;
+    font-family:Arial ;
 }
 
 #containts .contact .menu button {
