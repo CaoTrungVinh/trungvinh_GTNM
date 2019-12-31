@@ -1874,7 +1874,7 @@ select.mobile-device {
 
 .contact_form {
     border: 1px solid #ededed;
-    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+   // box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
     background-color: #f2f3f5;
     padding: 40px 30px;
 }
