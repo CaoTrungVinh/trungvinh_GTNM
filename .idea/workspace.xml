@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95adcd1b-6518-4415-a506-182f7a2f5a37" name="Default Changelist" comment="" />
+    <list default="true" id="1b5d1330-c90e-430b-9449-dc1211b28430" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1Z3qvxjyhtbYmzIF46gNdToPr2K" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1V7mSRGKSGQBB4cTcG8B73sqsMk" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/img/lap5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Desktop\master\trungvinh_GTNM\images\img\lap5" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -30,16 +38,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="95adcd1b-6518-4415-a506-182f7a2f5a37" name="Default Changelist" comment="" />
-      <created>1584078359980</created>
+      <changelist id="1b5d1330-c90e-430b-9449-dc1211b28430" name="Default Changelist" comment="" />
+      <created>1576612506860</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584078359980</updated>
-      <workItem from="1584078362863" duration="1021000" />
+      <updated>1576612506860</updated>
+      <workItem from="1576612508131" duration="1448000" />
+      <workItem from="1576676928685" duration="4000" />
+      <workItem from="1576720394421" duration="3875000" />
+      <workItem from="1577455651181" duration="2733000" />
+      <workItem from="1577460546014" duration="2067000" />
+      <workItem from="1577632771537" duration="755000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

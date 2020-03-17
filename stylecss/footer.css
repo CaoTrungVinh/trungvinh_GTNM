@@ -1,0 +1,33 @@
+.copyrights{
+    height: 100px;
+    background: #111111;
+}
+.footer-distributed .footer-company-name {
+    font-weight: 300;
+    margin: -11px 10px;
+    color: #666;
+    padding: 0;
+}
+.footer-distributed form input {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #181818;
+    border: none;
+    font: inherit;
+    font-size: 15px;
+    font-weight: normal;
+    color: #999;
+    width: 360px;
+    padding: 12px 50px 12px 12px;
+}
+.footer-distributed form i {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    color: #999;
+    font-size: 18px;
+    margin-top: 0px;
+}

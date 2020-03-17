@@ -1,0 +1,467 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial ;
+
+}
+#Design .desi h4{
+    font-family: Arial;
+}
+/*body{*/
+/*    overflow: hidden;*/
+/*}*/
+/*dùng ảnh gif*/
+.load {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000000000;
+    display: block;
+    overflow: hidden;
+}
+
+.load img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+}
+
+#sidebar-wrapper .side-top .logo-sidebar {
+    /*margin-top: 20px;*/
+}
+
+#sidebar-wrapper .side-top ul li {
+    font-size: 17px;
+}
+#sidebar-wrapper .side-top ul li a{
+    font-weight: normal;
+}
+#containts .contact .fix {
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+    float: top;
+}
+
+#containts .contact .menu {
+    height: 50px;
+    background: #111111;
+}
+
+#containts .contact .menu button {
+    width: 130px;
+    height: 50px;
+    background: none;
+    border: none;
+    float: left;
+}
+
+#containts .contact .menu button a {
+    font-size: 18px;
+}
+
+#containts .contact .menu a {
+    color: white;
+    /*font-weight: bold;*/
+}
+#containts .contact .menu .bt-lab3 {
+    background: #caa853;
+    border-radius: 5px;
+}
+
+#containts .contact .menu .bt-lab:hover {
+    background: #caa853;
+    border-radius: 5px;
+}
+
+#containts .contact .menu .bt-lab:hover a {
+    color: black;
+}
+
+/*----------tab--------------*/
+#containts .contact .dow {
+    width: 100%;
+    background: white;
+    height: 30px;
+    color: black;
+    position: fixed;
+    z-index: 100000;
+    padding: 5px 0px;
+    float: top;
+
+}
+
+#containts .contact .dow a {
+    margin-left: 320px;
+
+}
+
+#containts .contact #colorlib-main .ftco-section-2 .tab-0 {
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 50px;
+    position: fixed;
+    margin-top: 78px;
+    z-index: 100000;
+    float: top;
+    -webkit-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+
+}
+
+#containts .contact #colorlib-main .ftco-section-2 .tab-0 button {
+    width: 170px;
+    height: 50px;
+    /*font-weight: bold;*/
+    color: black;
+    font-size: 17px;
+    border: none;
+    background: none;
+    float: left;
+    outline: none;
+
+}
+
+#containts .contact #colorlib-main .ftco-section-2 .tab-0 button.active {
+    background-color: #ccc;
+}
+
+#containts .contact #colorlib-main .ftco-section-2 .tab-0 button:hover {
+    background-color: #ddd;
+}
+
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tab-1 button.active {
+    background-color: #ccc;
+}
+
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tab-sub {
+    background-color: #f1f1f1;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1300;
+    margin-top: 128px;
+    float: top;
+    -webkit-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+}
+
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tab-sub button {
+    width: 170px;
+    height: 50px;
+    /*font-weight: bold;*/
+    color: black;
+    font-size: 17px;
+    border: none;
+    background: none;
+    float: left;
+    outline: none;
+}
+
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tab-sub button:hover {
+    background-color: #ddd;
+}
+
+/*ẼX1*/
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tabcontent-1 {
+    float: top;
+    padding-top: 185px;
+}
+
+#containts .contact #colorlib-main .ftco-section-2 #EX1 {
+    float: top;
+    padding-top: 132px;
+    margin-bottom: 180px;
+}
+
+.dowRe {
+    margin-left: 80px;
+}
+
+.dow1 {
+    margin-left: 60px;
+    color: black;
+}
+
+.dow2 {
+    margin-left: 230px;
+    color: black;
+}
+
+.dow3 {
+    margin-left: 415px;
+    color: black;
+}
+
+.dow4 {
+    margin-left: 590px;
+
+}
+
+#containts .contact #colorlib-main .ftco-section-2 h2 {
+    font-weight: bold;
+    color: #04617A;
+}
+
+#containts .contact #colorlib-main .ftco-section-2 p {
+    font-size: 16px;
+}
+
+#containts .contact #colorlib-main .ftco-section-2 .p3 i {
+    color: #0F6EC6;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+#containts .contact #colorlib-main .ftco-section-2 .p4 i {
+    color: #0F6EC6;
+    font-size: 10px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+/*EX2*/
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tabcontent-2 {
+    float: top;
+    padding-top: 185px;
+}
+
+/*------ex2 design*/
+.HT_requi2 {
+    margin-left: 18px;
+}
+
+.HT_requi2 .img h4 {
+    /*font-weight: bold;*/
+
+}
+
+.HT_requi2 .img .img-tay {
+    margin-top: 15px;
+}
+
+.HT_requi2 .img .img-tay img {
+    margin-left: 30px;
+}
+
+.HT_requi2 .img .img-tay button {
+    margin-left: 110px;
+}
+
+.btn_lab1 {
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 140px;
+    height: 50px;
+    outline: none;
+}
+
+.btn_lab1 i {
+    margin: 5px;
+}
+
+.btn_lab1:hover {
+    background: #0069D9;
+    -webkit-box-shadow: -5px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 7px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.btn_lab1 a:hover {
+    color: black;
+}
+.btn_lab1 i:hover {
+    color: black;
+}
+.HT_requi2 .img .img-figma {
+    margin-top: 50px;
+}
+
+.HT_requi2 .img .img-figma img {
+    margin-left: 30px;
+}
+
+.HT_requi2 .img .img-figma button {
+    margin-left: 110px;
+}
+
+.HT_requi2 button {
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+/*------ex2 implement*/
+#User_EX2 .HT_user2 {
+    margin-left: 18px;
+
+}
+.implement_EX2{
+    width: 97%;
+    border: 1px solid #AAAAAA;
+    margin-top: 30px;
+    background: #F0F0F0;
+    height: 783px;
+    margin-bottom: 80px;
+}
+.top_EX2{
+    background: #BFED67;
+    height: 60px;
+    float: top;
+}
+.top_EX2 .left{
+    background: black;
+    width: 420px;
+    height: 60px;
+    margin-left: 100px;
+    float: left;
+}
+.top_EX2 .left .search{
+    float: left;
+    width: 235px;
+    height: 35px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-left: 8px;
+}
+.top_EX2 .search input{
+    outline: none;
+    border: none;
+    padding: 4px 10px 2px;
+    width: 200px;
+}
+.top_EX2 .right{
+    float: left;
+    height: 60px;
+    width: 130px;
+    cursor:pointer;
+}
+.top_EX2 .right:hover{
+    background: #659900;
+}
+.top_EX2 .right .fas{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.top_EX2 .right p{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+}
+.tables{
+    float: left;
+    /*height: 500px;*/
+    width: 180px;
+    margin-left: 10%;
+    margin-top: 40px;
+    background: white;
+}
+table, th, td {
+    border: 2px solid #AAAAAA;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    cursor:pointer;
+}
+tr:hover{
+    background: #DDDDDD;
+}
+.xapxep{
+    float: left;
+    margin-top: 40px;
+    margin-left: 3%;
+}
+.xapxep select {
+    width: 205px;
+    height: 35px;
+    cursor:pointer;
+}
+.phone {
+    float: left;
+    width: 62%;
+    height: 515px;
+    background: white;
+    margin-left: 3%;
+    margin-top: 20px;
+    font-family: Arial;
+}
+.phone .dt{
+    float: top;
+    height: 33%;
+    margin-top: 5px;
+}
+.phone .dt .dt_top{
+    float: left;
+    overflow: hidden;
+
+    /*bộ 3*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*position: relative;*/
+}
+.phone .dt .dt_top img{
+    cursor:pointer;
+}
+.phone .dt .dt_top .p1{
+    text-align: center;
+    cursor:pointer;
+}
+.phone .dt .dt_top .p1:hover{
+    color: red;
+}
+.phone .dt .dt_top .p2{
+    text-align: center;
+    color: red;
+}
+.bottom_EX2{
+    float: left;
+    height: 80px;
+    background: white;
+    margin-top: 30px;
+    width: 100%;
+    font-family: Tahoma;
+}
+/*EX3*/
+#containts .contact #colorlib-main .ftco-section-2 .tabcontent .tabcontent-3 {
+    float: top;
+    padding-top: 185px;
+}
+#User_EX3{
+    margin-left: 18px;
+}
+.implement_EX3{
+    width: 97%;
+    border: 1px solid #AAAAAA;
+    margin-top: 30px;
+    background: #F0F0F0;
+    height: 393px;
+    margin-bottom: 80px;
+}
+.congnghe {
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 80px;
+}
+.congnghe .le{
+    float: top;
+    height: 62px;
+    margin-top: 5px;
+}
+.congnghe .left p:hover{
+    color: #0b8eff;
+}

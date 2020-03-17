@@ -1,82 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Đồng hồ tình yêu</title>
+<!-- Basic -->
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- Site Metas -->
+<title>Cao Trung Vinh</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="images/img/style/logo.png" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- Colors CSS -->
+<link rel="stylesheet" href="css/colors.css">
+<!-- ALL VERSION CSS -->
+<link rel="stylesheet" href="css/versions.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+
+<!--    css me-->
+<link rel="stylesheet" href="stylecss/style.css">
+<link rel="stylesheet" href="stylecss/footer.css">
+
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
 </head>
+<body class="barber_version">
+<div class="load">
 
-<body>
-<style>
-    #clock {
-        position: relative;
-        width: 378px;
-        height: 378px;
-        background-image: url('./images/clockFace.png');
-        left: 50%;
-        margin: 5em 0 0 -189px;
-    }
-
-    #clock div {
-        position: absolute;
-    }
-
-    #clock div img {
-        display: block;
-        transform: rotate(0deg);
-    }
-
-    #clock img[src*='second'] {
-        transition: transform 600000s linear;
-    }
-
-    #clock:target img[src*='second'] {
-        transform: rotate(3600000deg);
-    }
-
-    #clock img[src*='minute'] {
-        transition: transform 360000s linear;
-    }
-
-    #clock:target img[src*='minute'] {
-        transform: rotate(36000deg);
-    }
-</style>
-<p style="text-align: center; color: #dc7c5c;font-family: cursive">LÃO CUN YÊU BẢO BỐI</p>
-<div id="clock">
-
-    <div id="hour">
-        <img src="./images/hourHand.png" />
-    </div>
-
-    <div id="minute">
-        <img src="./images/minuteHand.png" />
-    </div>
-
-    <div id="second">
-        <img src="./images/secondHand.png" />
-    </div>
+    <img src="images/img/style/loader.gif" height="200" width="200"/>
 </div>
-<p style="text-align: center;"><a style="text-decoration: none" href="#clock" onclick="startClock()">Nhấn vào đây vợ ơi</a></p>
-<script>
-    function startClock() {
-        var angle = 360 / 60;
-        var date = new Date();
-        var hour = date.getHours();
-        if (hour > 12) {
-            hour = hour - 12;
-        }
-        var minute = date.getMinutes();
-        var second = date.getSeconds();
-        var hourAngle = (360 / 12) * hour + (360 / (12 * 60)) * minute;
-        document.getElementById('minute').style.transform = 'rotate(' + angle * minute + 'deg)';
-        document.getElementById('second').style.transform = 'rotate(' + angle * second + 'deg)';
-        document.getElementById('hour').style.transform = 'rotate(' + hourAngle + 'deg)';
-    }
-</script>
-<p style="text-align: center; color: #dc7c5c;font-family: cursive">Một khi em đã nhấn vào đồng hồ này. Nó sẽ quay không bao giờ ngừng lại. Và chúng ta cùng yêu nhau không NO END em nhá</p>
-</body>
+<div id="wrapper">
+    <!-- Sidebar-wrapper -->
+    <div id="sidebar-wrapper">
+        <div class="side-top">
+            <div class="logo-sidebar">
+                <a href="index.html"><img src="images/img/style/logo.png" height="120" width="120" alt="image"></a>
+            </div>
+            <ul class="sidebar-nav">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="lab1.html">Exercise</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Sidebar-wrapper -->
 
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+
+        <div id="home" class="parallax first-section" data-stellar-background-ratio="0.4"
+             style="background-image:url('images/img/style/slider.jpg');">
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="full-width" class="owl-carousel owl-theme">
+                        <div class="text-center item">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12">
+                                <div class="big-tagline text-center">
+                                    <h2><strong>Project by</strong><br>
+                                        Cao Trung Vĩnh</h2>
+                                    <p class="lead">This is a website for project in Human – computer interaction
+                                        course!</p>
+                                    <a href="#" class="btn btn-light btn-radius btn-brd grd1 effect-1 butn">APPOINTMENT
+                                        NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center item">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12">
+                                <div class="big-tagline text-center">
+                                    <h2><strong>Project by</strong><br>
+                                        Cao Trung Vĩnh</h2>
+                                    <p class="lead">This is a website for project in Human – computer interaction
+                                        course!</p>
+                                    <a href="#" class="btn btn-light btn-radius btn-brd grd1 effect-1 butn">APPOINTMENT
+                                        NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center item">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12">
+                                <div class="big-tagline text-center">
+                                    <h2><strong>Project by</strong><br>
+                                        Cao Trung Vĩnh</h2>
+                                    <p class="lead">This is a website for project in Human – computer interaction
+                                        course!</p>
+                                    <a href="#" class="btn btn-light btn-radius btn-brd grd1 effect-1 butn">APPOINTMENT
+                                        NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end section -->
+
+        <div id="barbers" class="section lb">
+            <div class="container-fluid">
+                <div class="section-title row text-center">
+                    <div class="col-md-8 col-md-offset-2">
+                        <small>PROJECT BY</small>
+                        <h3>CAO TRUNG VĨNH</h3>
+                        <hr class="grd1">
+                        <p class="lead">This is a website for project in Human – computer interaction course!</p>
+                        <p class="lead">Lecturer: Tran Thi Thanh Nga.</p>
+                    </div>
+                </div><!-- end title -->
+
+                <div class="row dev-list text-center">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s"
+                         data-wow-delay="0.2s">
+                        <div class="widget clearfix">
+                            <div class="hover-br">
+                                <!--                                <img src="uploads/barber_team_01.jpg" alt="" class="img-responsive">-->
+                                <img src="images/img/style/trungvinh3.jpg" height="100px" alt="" class="img-responsive">
+                                <div class="social-up-hover">
+                                    <div class="footer-social">
+                                        <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                                        <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                                        <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--widget -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s"
+                         data-wow-delay="0.4s">
+                        <div class="widget clearfix">
+                            <div class="hover-br">
+                                <img src="images/img/style/trungvinh.jpg" alt="" class="img-responsive">
+                                <div class="social-up-hover">
+                                    <div class="footer-social">
+                                        <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                                        <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                                        <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+<!--                            <div class="widget-title">-->
+<!--                                <h3>Bryan Saftler</h3>-->
+<!--                                <small>The Barber</small>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash; end title &ndash;&gt;-->
+<!--                            <p>Hello guys, I am Soren from Sirbistana. I am senior art director and barber of the Barber-->
+<!--                                Shop Market.</p>-->
+                        </div><!--widget -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s"
+                         data-wow-delay="0.6s">
+                        <div class="widget clearfix">
+                            <div class="hover-br">
+                                <img src="images/img/style/trungvinh2.jpg" alt="" class="img-responsive">
+                                <div class="social-up-hover">
+                                    <div class="footer-social">
+                                        <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                                        <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                                        <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--widget -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end section -->
+
+        <div class="copyrights" style="height: 100px; background: #111111;">
+            <div class="container-fluid">
+                <div class="footer-distributed">
+                    <div class="footer-left">
+                        <p class="footer-company-name">Copyright &copy; 2019 <a href="#"> PROJECT </a> Design
+                            By : <a href="https://html.design/">Cao Trung Vĩnh</a></p>
+                    </div>
+
+                    <div class="footer-right" style="margin-top: -23px">
+                        <form method="get" action="#">
+                            <input placeholder="Subscribe our newsletter.." name="search">
+                            <i class="fa fa-envelope-o"></i>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- end container -->
+        </div><!-- end copyrights -->
+    </div>
+</div><!-- end wrapper -->
+
+<a style="background: #BB9D52" href="#" id="scroll-to-top" class="dmtop global-radius"><i
+        class="fa fa-angle-up"></i></a>
+
+<script src="js_lib_load/js/jquery-3.3.1.min.js"></script>
+<script src="js_lib_load/js/script.js"></script>
+<!-- ALL JS FILES -->
+<script src="js/all.js"></script>
+<script src="js/responsive-tabs.js"></script>
+<!-- ALL PLUGINS -->
+<script src="js/custom.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+    (function ($) {
+        "use strict";
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function (anchor, toggle) {
+            } // Function to run after scrolling
+        });
+    })(jQuery);
+</script>
+
+</body>
 </html>
